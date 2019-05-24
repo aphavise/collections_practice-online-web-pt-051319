@@ -8,7 +8,8 @@ def sort_array_desc(numbers_array)
   #numbers_array.sort.reverse
 end
 
-def sort_array_char_count(numbers_array)
-  numbers_array.sort 
+def sort_array_char_count(string_array)
+  string_array.sort do  | a,b|
+    a.length <=> b.length
 end
   
