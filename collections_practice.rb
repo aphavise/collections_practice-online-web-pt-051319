@@ -13,7 +13,7 @@ def sort_array_char_count(string_array)
 end
   
   
-def sway_elements(array)
+def swap_elements(array)
   second = array [1]
   array [1] = array [2]
   array [2] = second
