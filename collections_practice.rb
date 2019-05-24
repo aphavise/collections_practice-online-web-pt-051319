@@ -49,7 +49,7 @@ end
 
 
 def add_s(array)
-  array.each do | word,index|
+  array.each do |word,index|
   word [word.length] = "s" unless index [1]
   end
 end
