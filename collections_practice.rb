@@ -50,6 +50,6 @@ end
 
 def add_s(array)
   array.each_with_index do |word,index|
-  word [word.length] = "s" unless index[1]
+  word [word.length] = "s" unless index == 1
   end
 end
