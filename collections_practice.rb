@@ -22,3 +22,9 @@ def sway_elements(array)
   #array[1],array[2] = array[2],array[1]
   #array
 end
+
+def reverse_array(numbers_array)
+  numbers_array.reverse
+end
+
+def kesha_maker()
