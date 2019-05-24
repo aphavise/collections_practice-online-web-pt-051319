@@ -44,5 +44,5 @@ def find_a(string_array)
 end
 
 def sum_array(array)
-  array.
+  array.inject{|sum,num| sum+num}
 end
