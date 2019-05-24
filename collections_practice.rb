@@ -4,5 +4,5 @@ end
 
 
 def sort_array_desc(number_array)
-  number_array.sort {
+  number_array.sort {|a,b| a <=>b}
 end
