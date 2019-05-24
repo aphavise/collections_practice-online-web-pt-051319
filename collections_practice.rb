@@ -5,7 +5,7 @@ end
 
 def sort_array_desc(numbers_array)
   numbers_array.sort {|a,b| b<=>a}
-  #number
+  #numbers_array.sort.reverse
 end
 
-def sor 
+def sort_array_char_count
