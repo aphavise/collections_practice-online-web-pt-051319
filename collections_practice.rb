@@ -37,4 +37,8 @@ def kesha_maker(numbers_array)
 end
 
 
-def find_a()
+def find_a(string_array)
+  string_array. do | string|
+    name.start_with?(a)
+  end
+end
