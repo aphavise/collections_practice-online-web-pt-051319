@@ -33,6 +33,7 @@ def kesha_maker(numbers_array)
     name[2] = "$"
     keshified << name
   }
+  end
   keshified
 end
 
