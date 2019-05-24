@@ -36,3 +36,5 @@ def kesha_maker(numbers_array)
   keshified
 end
 
+
+def find_a()
