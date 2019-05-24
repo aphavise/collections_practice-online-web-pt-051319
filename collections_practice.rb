@@ -28,5 +28,6 @@ def reverse_array(numbers_array)
 end
 
 def kesha_maker(numbers_array)
-  numbers_array
+  keshified [ ]
+  numbers_array.each { | names |  
 end
