@@ -38,7 +38,7 @@ end
 
 
 def find_a(string_array)
-  string_array. do | string|
+  string_array.select do |string|
     name.start_with?(a)
   end
 end
