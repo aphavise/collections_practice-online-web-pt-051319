@@ -16,4 +16,6 @@ end
 def sway_elements(array)
   second = array [1]
   array [1] = array [2]
+  array [2] = second
+  return second
 end
