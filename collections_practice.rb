@@ -27,11 +27,11 @@ def reverse_array(numbers_array)
 end
 
 def kesha_maker(numbers_array)
-  keshified [ ]
+  keshified = [ ]
   #numbers_array.each {| name| name[2] = "$"}
-  numbers_array.each { |names| 
-    names[2] = "$"
-    keshified << names
+  numbers_array.each { |name| 
+    name[2] = "$"
+    keshified << name
   }
   keshified
 end
