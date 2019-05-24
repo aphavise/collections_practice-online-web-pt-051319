@@ -30,8 +30,8 @@ def kesha_maker(numbers_array)
   keshified [ ]
   #numbers_array.each {| name| name[2] = "$"}
   numbers_array.each { |names| 
-    name[2] = "$"
-    keshified << name
+    names[2] = "$"
+    keshified << names
   }
   keshified
 end
