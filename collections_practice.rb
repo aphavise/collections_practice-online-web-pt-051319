@@ -29,5 +29,6 @@ end
 
 def kesha_maker(numbers_array)
   keshified [ ]
-  numbers_array.each { | names |  
+  keshified << numbers_array.each { |names| name[2] = "$"
+  keshified
 end
