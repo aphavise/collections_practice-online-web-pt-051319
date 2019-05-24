@@ -46,3 +46,10 @@ end
 def sum_array(array)
   array.inject{|sum,num| sum+num}
 end
+
+
+def add_s(array)
+  array.each do | word,index|
+  word [word.length] = "s" unless index [1]
+  end
+end
